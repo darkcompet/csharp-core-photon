@@ -2,6 +2,9 @@ namespace Tool.Compet.Photon {
 	/// Declare type for message in communication between server and client.
 	/// Values in range [0 -> 255]
 	public enum DkPhotonMessageType {
+		/// For calculate round-trip-time.
+		PING,
+
 		/// Indicates the message targets to call a service methods
 		/// which be declared inside service interface (shared between server and client).
 		/// Both server and client must implement service methods for communication.
