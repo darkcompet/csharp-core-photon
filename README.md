@@ -1,4 +1,4 @@
-# Photon for Core
+# Photon for C#
 
 This provides Photon streaming for Core.
 
